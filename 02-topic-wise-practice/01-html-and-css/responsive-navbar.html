@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <style>
+    body { margin: 0; font-family: sans-serif; }
+    .nav { display: flex; justify-content: space-between; align-items: center;
+           background: #1e293b; padding: 0.8rem 1.5rem; }
+    .nav a { color: #fff; text-decoration: none; margin-left: 1rem; }
+    .toggle { display: none; background: none; border: 0; color: #fff; font-size: 1.5rem; }
+    @media (max-width: 600px) {
+      .toggle { display: block; }
+      .links { display: none; flex-direction: column; width: 100%; }
+      .links.open { display: flex; }
+      .nav { flex-wrap: wrap; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <strong style="color:#fff">Brand</strong>
+    <button class="toggle" onclick="document.querySelector('.links').classList.toggle('open')">&#9776;</button>
+    <div class="links" style="display:flex">
+      <a href="#">Home</a><a href="#">About</a><a href="#">Contact</a>
+    </div>
+  </nav>
+</body>
+</html>

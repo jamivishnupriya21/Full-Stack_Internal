@@ -1,0 +1,29 @@
+/* Flexbox: one-dimensional layout */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Grid: two-dimensional layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.holy-grail {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "nav    main   aside"
+    "footer footer footer";
+  grid-template-columns: 200px 1fr 200px;
+  min-height: 100vh;
+}
+.holy-grail > header { grid-area: header; }
+.holy-grail > nav    { grid-area: nav; }
+.holy-grail > main   { grid-area: main; }
+.holy-grail > aside  { grid-area: aside; }
+.holy-grail > footer { grid-area: footer; }

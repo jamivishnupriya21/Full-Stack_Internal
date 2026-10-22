@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Build REST API with Express",
+    "subject": "Full Stack Development",
+    "description": "Create a REST API with GET, POST, PUT and DELETE routes for a student records app and test it with Postman.",
+    "dueDate": "2026-10-20",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "2026-10-01"
+  },
+  {
+    "id": 3,
+    "title": "Python File Handling Lab",
+    "subject": "Python",
+    "description": "Write programs that read, write and append text files and count word frequency.",
+    "dueDate": "2026-09-30",
+    "priority": "Low",
+    "status": "Completed",
+    "createdAt": "2026-09-20"
+  },
+  {
+    "id": 5,
+    "title": "Subnetting Practice Worksheet",
+    "subject": "Computer Networks",
+    "description": "Solve 15 subnetting and CIDR problems from the worksheet shared in class.",
+    "dueDate": "2026-10-18",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2026-10-08"
+  },
+  {
+    "id": 6,
+    "title": "Linear Regression Mini Project",
+    "subject": "Machine Learning",
+    "description": "Train a linear regression model on a housing dataset and report MSE and R2 score.",
+    "dueDate": "2026-10-30",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "2026-10-10"
+  },
+  {
+    "id": 7,
+    "title": "React Components Assignment",
+    "subject": "Full Stack Development",
+    "description": "Build a reusable Card and Navbar component using props and useState.",
+    "dueDate": "2026-10-05",
+    "priority": "Medium",
+    "status": "Completed",
+    "createdAt": "2026-09-25"
+  },
+  {
+    "id": 8,
+    "title": "SQL Joins and Normalization Exercises",
+    "subject": "DBMS",
+    "description": "Write queries using INNER, LEFT and RIGHT joins and normalize the given table up to 3NF.",
+    "dueDate": "2026-10-16",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "2026-10-11"
+  },
+  {
+    "id": 9,
+    "title": "Python OOP Calculator Project",
+    "subject": "Python",
+    "description": "Create a calculator using classes, inheritance and exception handling.",
+    "dueDate": "2026-11-05",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2026-10-13"
+  },
+  {
+    "id": 10,
+    "title": "Deadlock Detection Case Study",
+    "subject": "Operating Systems",
+    "description": "Analyse a resource allocation graph and apply the Banker's algorithm to find safe sequences.",
+    "dueDate": "2026-10-10",
+    "priority": "Low",
+    "status": "Completed",
+    "createdAt": "2026-10-01"
+  },
+  {
+    "id": 11,
+    "title": "Dataset Cleaning Notes",
+    "subject": "Machine Learning",
+    "description": "Document how you handled missing values, outliers and encoding in the practice dataset.",
+    "dueDate": "2026-10-02",
+    "priority": "Medium",
+    "status": "Completed",
+    "createdAt": "2026-09-22"
+  }
+]
